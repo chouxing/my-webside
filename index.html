@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彥蓁蓁20歲生日快樂！</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Pacifico&family=Sacramento&display=swap');
+        
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffebef;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fffafa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px; /* 縮小圖片之間的間距 */
+            justify-items: center;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery img {
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .cute-title {
+            font-family: 'Comic Neue', cursive;
+            font-size: 24px;
+            color: #FFB6C1;
+            margin-top: 10px;
+        }
+        .big-title {
+            font-family: 'Sacramento', cursive;
+            font-size: 80px;
+            color: #FFB6C1;
+            margin-bottom: 20px;
+        }
+        .age-link {
+            font-size: 26px;
+            color: #FFB6C1;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .age-link:hover {
+            color: #ff69b4;
+        }
+        .continued-text {
+            font-family: 'Sacramento', cursive;
+            font-size: 40px; /* 比 80px 小一點 */
+            color: #FFB6C1;
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="big-title">₊⊹ ꕤ˚ ❤️生日快樂❤️ ꕤ˚⊹₊</h1>
+        <p>我的寶！！20歲生日快樂！！！每天都要開開心心好吃好喝好玩喔~~~🥳</p>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="15.html" class="age-link">國中的我們</a>
+                <img src="image/photo1.jpg" alt="15歲代表照片">
+            </div>
+            <div class="gallery-item">
+                <a href="16.html" class="age-link">高中的我們</a>
+                <img src="image/photo27.jpg" alt="16歲代表照片">
+            </div>
+                <div class="gallery-item">
+                <a href="18.html" class="age-link">去日本玩ㄉ我們</a>
+                <img src="image/photo74.jpg" alt="18歲代表照片">
+            </div>
+        </div>
+
+        <!-- 確保「未完待續...」放在 .container 裡，但不在 .gallery 內 -->
+        <p class="continued-text">未完待續...</p>
+    </div>
+</body>
+</html>
